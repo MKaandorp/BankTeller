@@ -1,0 +1,105 @@
+.CATEGORIES
+# Here you can add categories and keywords.
+# The structure is as follows:
+#
+# category1
+# {
+# keyword1
+# keyword2
+# }
+#
+boodschappen
+{
+albert heijn
+ah
+vomar
+jumbo
+spar
+plus
+dekamarkt
+}
+huur
+{
+naam verhuurder
+}
+ov
+{
+ns-
+ns
+}
+telefoon
+{
+tele2
+kpn
+simyo
+}
+studie
+{
+universiteit van amsterdam
+universiteit utrecht
+erasmus universiteit
+}
+eten_bestellen
+{
+takeaway.com
+}
+luxe_artikelen
+{
+etos
+gall
+blokker
+netflix
+mcdonalds
+kiosk
+action
+hema
+kruidvat
+h&m
+v&d
+vakantieveilingen
+mediamarkt
+loterij
+slijterij
+}
+pinnen
+{
+atm
+}
+overschrijving
+{
+de wolf
+postduif
+bontekoe
+de vos
+woefdram
+de uil
+}
+#
+.FILESTRUCTURES
+# Here you can add support for your bank.
+# A keyword which corresponds with part of the CSV filename is necessary,
+# as well as the indices of the columns with data.
+#
+# Date, Description, Af/Bij(To/From), Amount, DateType
+#
+# Ex.: Date = 8-3-2018 (8th of March, 2018)
+# DateType 0 = 20180308
+# DateType 1 = 2018-03-08
+#
+# Structure is as follows:
+#
+# keyword1
+# {
+# 0,1,2,3,0
+# }
+#
+# ING Bank
+INGB
+{
+0,1,5,6,0
+}
+# Rabobank
+CSV_A
+{
+4,9,6,6,1
+}
