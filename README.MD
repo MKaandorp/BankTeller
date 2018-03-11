@@ -17,8 +17,8 @@ Currently supported banks:
 ## Getting Started
 
 #### 1. Download and unpack the latest release for your system:
-* [Python](distributables/bankteller-python.tar.gz) (Tested on Python 2.7.12 and 3.5.2)
-* [Windows](distributables/bankteller-windows.zip) (Tested on Win10 64bit)
+* [Python](../../releases/download/1.0/bankteller-python.tar.gz) (Tested on Python 2.7.12 and 3.5.2)
+* [Windows](../../releases/download/1.0/bankteller-windows.zip) (Tested on Win10 64bit)
 
 The archive should contain 4 files.
 * BankTeller.py / BankTeller.exe
